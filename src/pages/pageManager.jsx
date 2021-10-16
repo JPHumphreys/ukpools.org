@@ -7,7 +7,7 @@ class PageManager extends React.Component {
         return (
             <div>
                 <NavbarComponent />
-                <Validator />
+                <Validator currency="polkadot" />
             </div>
         );
     }
