@@ -1,10 +1,27 @@
 {
     "online":[
         {
-            "name":"UK POOLS DOT",
-            "ticker":"UKPOOL"
+            "name":"n/a",
+            "ticker":"n/a",
+            "currency":"DOT"
         }
     ],
     "offline":[],
-    "comingSoon":[]
+    "comingSoon":[
+        {
+            "name":"n/a",
+            "ticker":"n/a",
+            "currency":"LUNA"
+        },
+        {
+            "name":"n/a",
+            "ticker":"n/a",
+            "currency":"ROSE"
+        },
+        {
+            "name":"n/a",
+            "ticker":"n/a",
+            "currency":"ADA"
+        }
+    ]
 }
