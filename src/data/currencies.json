@@ -1,0 +1,24 @@
+{
+    "currency":[
+        {
+            "name":"Polkadot",
+            "ticker":"DOT",
+            "currentValue":""
+        },
+        {
+            "name":"Terra",
+            "ticker":"LUNA",
+            "currentValue":""
+        },
+        {
+            "name":"Cardano",
+            "ticker":"ADA",
+            "currentValue":""
+        },
+        {
+            "name":"Oasis",
+            "ticker":"ROSE",
+            "currentValue":""
+        }
+    ]
+}
