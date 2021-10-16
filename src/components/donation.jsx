@@ -2,8 +2,7 @@ import React from 'react';
 
 class Donation extends React.Component {
 
-
-
+    state = {}
     render() {
 
         const image = this.props.image;

@@ -1,0 +1,23 @@
+#validator-nav-button {
+    text-transform: uppercase;
+    color: whitesmoke;
+    opacity: .7;
+    border: 2px solid transparent;
+    margin-left: .5rem;
+}
+
+#validator-nav-button:hover {
+    opacity: 1;
+    border: 2px solid rgba(245, 246, 250, .1);
+    box-shadow: rgba(245, 246, 250, 0.19) 0px 4px 7px,
+        rgba(245, 246, 250, 0.23) 0px 3px 3px;
+}
+
+#responsive-navbar-nav {
+    color: whitesmoke;
+    --justify-content: end;
+}
+
+#navbar {
+    padding-left: 1rem;
+}

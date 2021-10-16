@@ -1,6 +1,7 @@
 import './App.css';
 import PageManager from './pages/pageManager';
 import Error from './pages/error';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
   Switch,

@@ -1,21 +1,20 @@
 import React from 'react';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import './navbarComponent.css';
 
 class NavbarComponent extends React.Component {
     render() {
         return (
-            <Navbar bg="dark" variant="dark">
-                <Container>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Navbar collapseOnSelect expand="lg" id="navbar" bg="dark" variant="dark">
+                <Navbar.Brand href="/">UK Pools</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="ml-auto">
+                        <Nav.Link href="/validators" id="validator-nav-button" className="navbar-button">Validators</Nav.Link>
                     </Nav>
-                </Container>
+                </Navbar.Collapse>
             </Navbar>
         )
-
     }
 }
 
