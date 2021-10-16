@@ -1,13 +1,13 @@
 import React from 'react';
 import NavbarComponent from '../components/navbarComponent';
-import Validator from '../components/validator';
+import Validators from './validators';
 
 class PageManager extends React.Component {
     render() {
         return (
             <div>
                 <NavbarComponent />
-                <Validator currency="polkadot" />
+                <Validators />
             </div>
         );
     }
