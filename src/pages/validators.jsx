@@ -29,9 +29,6 @@ class Validators extends React.Component {
     render() {
         return (
             <div>
-                <ServerStatus
-                    name="CoinGecko"
-                />
                 <Validator
                     name="UK POOL DOT"
                     crypto={this.state.polkadot.name}

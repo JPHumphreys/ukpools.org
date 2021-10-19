@@ -13,7 +13,7 @@ class Validator extends React.Component {
             <Card className="validator validator-polkadot">
                 <Card.Body>
                     <Card.Title>{this.props.name}</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">{this.props.crypto}</Card.Subtitle>
+                    <Card.Subtitle className="mb-2 text-muted">{this.props.crypto} : £{this.props.price}</Card.Subtitle>
                     <Card.Text>
                         {this.props.description}
                     </Card.Text>
