@@ -14,4 +14,16 @@ async function Ping(){
     return false;
 }
 
-export default Ping;
+async function GetPolkadot(){
+    const response = await fetch
+    (
+        "https://api.coingecko.com/api/v3/coins/polkadot",
+        {
+            method:"GET"
+        }
+    );
+
+    return await response.json();
+}
+
+export default {Ping, GetPolkadot};
