@@ -1,6 +1,6 @@
 import React from 'react';
 import './serverStatus.css';
-import Ping from '../api/CoinGecko';
+import { Ping } from '../api/CoinGecko';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPowerOff } from '@fortawesome/free-solid-svg-icons'
 

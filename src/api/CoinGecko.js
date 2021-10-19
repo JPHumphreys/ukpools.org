@@ -26,4 +26,7 @@ async function GetPolkadot(){
     return await response.json();
 }
 
-export default {Ping, GetPolkadot};
+export {
+    Ping,
+    GetPolkadot
+}
