@@ -1,6 +1,5 @@
 import React from 'react';
 import Validator from '../components/validator';
-import ServerStatus from '../components/serverStatus';
 import { GetPolkadot } from '../api/CoinGecko';
 import Crypto from '../dataObjects/crypto';
 

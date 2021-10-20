@@ -7,8 +7,7 @@ class Donation extends React.Component {
 
         const image = this.props.image;
 
-        return
-        (
+        return (
             <div className="donation-container">
                 <img src={image.src} alt={image.alt} />
             </div>
