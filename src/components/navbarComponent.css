@@ -15,9 +15,20 @@
 
 #responsive-navbar-nav {
     color: whitesmoke;
-    --justify-content: end;
 }
 
 #navbar {
     padding-left: 1rem;
+    text-align: center;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar a{
+    display:inline-block;
+    padding:10px;
+    text-underline-position: below;
+    text-underline-offset: .3rem;
+    text-decoration: underline whitesmoke;
 }
