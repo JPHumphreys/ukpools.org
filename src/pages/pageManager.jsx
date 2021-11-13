@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import NavbarComponent from '../components/navbarComponent';
 import Validators from './validators';
 
@@ -7,7 +8,9 @@ class PageManager extends React.Component {
         return (
             <div>
                 <NavbarComponent />
-                <Validators />
+                <Container>
+                    <Validators />
+                </Container>
             </div>
         );
     }

@@ -31,7 +31,6 @@ class Validators extends React.Component {
                 <Validator
                     name="UK POOL DOT"
                     crypto={this.state.polkadot.name}
-                    description={this.state.polkadot.description}
                     price={this.state.polkadot.price}
                 />
             </div>
