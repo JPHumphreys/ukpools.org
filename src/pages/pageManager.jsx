@@ -11,7 +11,7 @@ class PageManager extends React.Component {
         return (
             <div className="page-manager-container">
                 <NavbarComponent />
-                <Container>
+                <Container className="page-container">
                     <MissionStatement />
                     <Validators />
                 </Container>

@@ -12,9 +12,9 @@ class Validator extends React.Component {
         return (
             <Card className="validator validator-polkadot">
                 <Card.Body>
-                    <Card.Title>{this.props.name}</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">{this.props.crypto} : £{this.props.price}</Card.Subtitle>
-                    <Card.Text>
+                    <Card.Title className="validator-title">{this.props.name}</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted validator-subtitle">{this.props.crypto} : £{this.props.price}</Card.Subtitle>
+                    <Card.Text className="validator-text">
                         {this.props.description}
                     </Card.Text>
                 </Card.Body>

@@ -1,3 +1,11 @@
 .validator {
     width: 25%;
 }
+
+.card-body{
+    background-color: #333333;
+}
+
+.validator-title{
+    color: whitesmoke;
+}
